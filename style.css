@@ -26,8 +26,8 @@ a{
 }
 
 .card {
-    width: 1000px;
-    height: 400px;
+    width: 1110px;
+    height: 450px;
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
     display: flex;
@@ -35,7 +35,7 @@ a{
 }
 
 .card .card-left {
-    width: 51%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -44,7 +44,7 @@ a{
 }
 .card .card-left .title {
     font-family: "Inter", serif;
-    font-size:2.1rem;
+    font-size:2.5rem;
     font-weight: 700;
     color:hsl(0, 0%, 100%);
 }
@@ -55,8 +55,8 @@ a{
 
 .card .card-left .main {
     font-family: "Inter", serif;
-    font-size:.95rem;
-    line-height: 1.5rem;
+    font-size:1.1rem;
+    line-height: 1.7rem;
     letter-spacing: -.035rem;
     font-weight: 400;
     color:hsla(0, 0%, 100%, 0.75);
@@ -67,7 +67,7 @@ a{
 .card .card-left .info {
     display: flex;
     flex-direction: row;
-    grid-gap: 3.4rem;
+    grid-gap: 5rem;
     text-align: left;
     line-height: 1.6rem;
     padding-right: 2.7rem;
@@ -95,7 +95,7 @@ a{
 
 .card .card-right {
     display: flex;
-    width: 49%;  
+    width: 50%;  
     border-radius: 0 10px 10px 0;
 }
 
@@ -113,7 +113,7 @@ a{
     content: "";
     width: 100%;
     background-color:  hsl(277, 64%, 61%);
-    opacity: .6;
+    opacity: .75;
     border-radius: 0 10px 10px 0;
 } 
 
@@ -156,13 +156,15 @@ a{
         justify-content: center;
         grid-gap:2rem;
         padding: 0;
-        padding-top:1rem;
     }
 
     .card .card-left .info-data{
         font-size: 1.7rem;
         text-align: center;
         
+    }
+    .card .card-left .title{
+        font-size: 2rem;
     }
     .card .card-left .title,
     .card .card-left .main{
@@ -172,7 +174,6 @@ a{
         margin:0 .75rem;
         padding:0;
         padding-bottom:1rem;
-        letter-spacing: .05rem;
         line-height: 1.8rem;
     }
 
