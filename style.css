@@ -20,6 +20,11 @@ body {
     background-color: hsl(233, 47%, 7%);
 }
 
+a{
+    text-decoration: none;
+    color:hsl(277, 64%, 61%);
+}
+
 .card {
     width: 1000px;
     height: 400px;
@@ -111,6 +116,12 @@ body {
     opacity: .6;
     border-radius: 0 10px 10px 0;
 } 
+
+.attribution{
+    position: absolute;
+    color:hsl(0, 0%, 100%);
+    bottom:50px;
+}
 
 @media (max-width:768px){
     .card{
