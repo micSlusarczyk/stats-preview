@@ -175,4 +175,11 @@ a{
         letter-spacing: .05rem;
         line-height: 1.8rem;
     }
+
+    .attribution{
+        position: absolute;
+        color:hsl(0, 0%, 100%);
+        bottom:10px;
+        text-align: center;
+    }
 }
